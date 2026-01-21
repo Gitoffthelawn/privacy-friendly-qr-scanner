@@ -18,8 +18,6 @@
 
 package com.secuso.privacyfriendlycodescanner.qrscanner.ui.activities;
 
-import static com.secuso.privacyfriendlycodescanner.qrscanner.helpers.PrefManager.PREF_SAVE_REAL_IMAGE_TO_HISTORY;
-
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -63,6 +61,8 @@ import com.journeyapps.barcodescanner.camera.CameraSettings;
 import com.secuso.privacyfriendlycodescanner.qrscanner.R;
 import com.secuso.privacyfriendlycodescanner.qrscanner.database.AppRepository;
 import com.secuso.privacyfriendlycodescanner.qrscanner.database.HistoryItem;
+import com.secuso.privacyfriendlycodescanner.qrscanner.helpers.PrefManager;
+import com.secuso.privacyfriendlycodescanner.qrscanner.helpers.PreferenceKeys;
 import com.secuso.privacyfriendlycodescanner.qrscanner.helpers.Utils;
 import com.secuso.privacyfriendlycodescanner.qrscanner.ui.helpers.BaseActivity;
 import com.secuso.privacyfriendlycodescanner.qrscanner.ui.viewmodel.ScannerViewModel;
@@ -138,7 +138,7 @@ public class ScannerActivity extends BaseActivity implements NavigationView.OnNa
 
         beepManager.playBeepSoundAndVibrate();
 
-        if(preferences.getBoolean("pref_enable_silent_scan", false)){
+        if(preferences.getBoolean(PreferenceKeys.SILENT_SCANNING, false)){
             Toast.makeText(this, getString(R.string.scanned_toast_silent_mode, result.getBarcodeFormat().name()), Toast.LENGTH_SHORT).show();
 
             Bitmap mCodeImage;
@@ -147,7 +147,7 @@ public class ScannerActivity extends BaseActivity implements NavigationView.OnNa
             } catch (NullPointerException e) {
                 mCodeImage = Utils.generateCode(result.getText(), result.getBarcodeFormat(), null, result.getResult().getResultMetadata());
             }
-            HistoryItem currentHistoryItem = Utils.createHistoryItem(mCodeImage, result, preferences.getBoolean(PREF_SAVE_REAL_IMAGE_TO_HISTORY, false));
+            HistoryItem currentHistoryItem = Utils.createHistoryItem(mCodeImage, result, preferences.getBoolean(PrefManager.PREF_SAVE_REAL_IMAGE_TO_HISTORY, false));
             AppRepository.getInstance(getApplication()).insertHistoryEntry(currentHistoryItem);
         } else {
             barcodeScannerView.setStatusText(result.getText());
