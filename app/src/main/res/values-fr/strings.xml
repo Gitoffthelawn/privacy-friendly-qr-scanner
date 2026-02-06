@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Scanneur code QR</string>
-    <string name="navigation_drawer_open">Afficher le menu de navigation</string>
+    <string name="navigation_drawer_open">Ouvrir le menu de navigation</string>
     <string name="navigation_drawer_close">Fermer le menu de navigation</string>
     <string name="qr_scanner">Scanneur QR</string>
     <string name="qr_generator">Générateur QR</string>
@@ -10,7 +10,7 @@
     <string name="help">Aide</string>
     <string name="about">À propos</string>
     <string name="title_activity_qrscanner">Scanneur QR</string>
-    <string name="action_settings">Paramètres globaux</string>
+    <string name="action_settings">Paramètres</string>
     <string name="title_activity_qr_scanner">Scanneur QR</string>
     <string name="title_activity_qr_generator">Générateur QR</string>
     <string name="title_activity_history">Historique</string>
@@ -21,7 +21,7 @@
     <string name="QRScanner">Scanneur QR</string>
     <string name="QRGenerator">Générateur QR</string>
     <string name="History">Historique</string>
-    <string name="slide1_heading">Bienvenue !</string>
+    <string name="slide1_heading">Bienvenue</string>
     <string name="slide1_text">Bienvenue dans Scanneur QR respectueux de la Vie Privée. Ce tutoriel couvrira les choses les plus importantes que vous devez savoir.</string>
     <string name="slide2_heading">Qu\'est-ce qu\'il y a ?</string>
     <string name="text_slide2">Avec cette application vous permet à la fois de scanner et de créer des QR codes.</string>
@@ -35,9 +35,9 @@
     <!--###ABOUT###-->
     <string name="about_author">Auteurs :</string>
     <string name="about_author_string">%s et des contributeurs.</string>
-    <string name="about_affiliation">En partenariat avec</string>
+    <string name="about_affiliation">En collaboration avec</string>
     <string name="privacy_friendly">C\'est une des nombreuses application respectueuse de la vie privée développées par SECUSO. Le code source est sous licence GPLv3. Images sous copyright par Karlsruhe Institute of Technology et Google Inc.</string>
-    <string name="more_info">Des informations complémentaires sont disponibles sur :</string>
+    <string name="more_info">Plus d\'informations :</string>
     <string name="about_libraries">Bibliothèques utilisées :</string>
     <string name="app_name_long">Scanneur de QR codes Respectueux de la Vie Privée</string>
     <string name="version_number">Version v%s</string>
@@ -217,7 +217,7 @@
     <string name="removed_items">éléments supprimés</string>
     <string name="canncelled_scan">Vous avez annulé la numérisation</string>
     <string name="Scan_qr">Numériser</string>
-    <string name="okay">D\'accord</string>
+    <string name="okay">Ok</string>
     <string name="Store_in_gallery">Enregistrer</string>
     <string name="phone_number">Numéro de téléphone</string>
     <!-- Activités du générateur -->
