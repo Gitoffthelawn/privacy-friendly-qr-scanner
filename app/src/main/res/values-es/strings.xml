@@ -232,4 +232,5 @@
     <string name="item_result_calendar_description">Descripción:</string>
     <string name="item_result_calendar_title">Título:</string>
     <string name="item_result_email_subject">Sujeto:</string>
+    <string name="hello_blank_fragment">Hola, fragmento en blanco</string>
 </resources>
