@@ -33,7 +33,7 @@
     <string name="help_">Hulp</string>
     <string name="tutorial">Rondleiding</string>
     <!--###ABOUT###-->
-    <string name="about_author">Makers: </string>
+    <string name="about_author">Auteurs:</string>
     <string name="about_author_string">%s en bijdragers.</string>
     <string name="about_affiliation">In samenwerking met</string>
     <string name="privacy_friendly">Deze app behoort tot de groep PRIVACYVRIENDELIJKE apps, ontwikkeld door de SECUSO. De broncode is vrijgegeven onder de GPLv3-licentie. Op de afbeeldingen berust auteursrecht van Karlsruhe Institute of Technology en copyright van Google Inc.</string>
