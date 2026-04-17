@@ -136,3 +136,7 @@
     <string name="network_name">Nettverksnavn (SSID)</string>
     <string name="phone_number">Telefonnummer</string>
 </resources>
+    <string name="okay">OK</string>
+    <string name="pref_custom_search_engine_title">Egendefinert søkemotor</string>
+    <string name="pref_custom_search_engine_summary">URL-en som skal brukes som \"Egendefinert søkemotor\". Søkestrengen settes inn ved %s.</string>
+</resources>
