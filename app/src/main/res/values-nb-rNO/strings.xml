@@ -58,7 +58,6 @@
     <string name="about_affiliation">I samarbeid med</string>
     <string name="github"><a href="https://github.com/SecUSo/privacy-friendly-qr-scanner">GitHub-kodelager</a></string>
     <string name="url_secuso"><a href="https://www.secuso.org/pfa">SECUSO-nettsiden</a></string>
-    <string name="okay">Ok</string>
     <string name="scan_text">Plasser dette vinduet over koden du vil dekode.</string>
     <string name="delete_history">Vil du slette historikken?</string>
     <string name="encryption">Kryptering</string>
@@ -135,7 +134,6 @@
     <string name="title">Tittel</string>
     <string name="network_name">Nettverksnavn (SSID)</string>
     <string name="phone_number">Telefonnummer</string>
-</resources>
     <string name="okay">OK</string>
     <string name="pref_custom_search_engine_title">Egendefinert søkemotor</string>
     <string name="pref_custom_search_engine_summary">URL-en som skal brukes som \"Egendefinert søkemotor\". Søkestrengen settes inn ved %s.</string>
