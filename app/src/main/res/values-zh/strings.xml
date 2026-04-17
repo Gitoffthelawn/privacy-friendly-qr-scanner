@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">QR Scanner</string>
-    <string name="navigation_drawer_open">打开侧滑导航栏</string>
-    <string name="navigation_drawer_close">关闭侧滑导航栏</string>
+    <string name="navigation_drawer_open">打开抽屉式导航栏</string>
+    <string name="navigation_drawer_close">关闭抽屉式导航栏</string>
     <string name="qr_scanner">二维码扫描</string>
     <string name="qr_generator">二维码生成</string>
     <string name="history">历史</string>
@@ -22,21 +22,21 @@
     <string name="QRGenerator">二维码生成</string>
     <string name="History">历史</string>
     <string name="slide1_heading">欢迎</string>
-    <string name="slide1_text">欢迎使用隐私友好的二维码扫描仪。 本教程将涵盖您需要了解的最重要的事情。</string>
+    <string name="slide1_text">欢迎使用 Privacy Friendly QR Scanner。本教程将涵盖您需要了解的最重要内容。</string>
     <string name="slide2_heading">有什么功能？</string>
-    <string name="text_slide2">你可以用这个 app 扫描或者生成二维码.</string>
+    <string name="text_slide2">您使用此应用扫描和创建二维码。</string>
     <string name="slide3_heading">更多功能</string>
     <string name="text_slide3">您扫描的二维码可以保存在历史记录中。 此外，您可以共享或复制它。</string>
     <string name="wecome">欢迎</string>
     <string name="skip">跳过</string>
-    <string name="next">下一个</string>
+    <string name="next">继续</string>
     <string name="help_">帮助</string>
     <string name="tutorial">教程</string>
     <string name="about_author">作者：</string>
     <string name="about_author_string">%s 和贡献者。</string>
     <string name="about_affiliation">隶属于</string>
     <string name="privacy_friendly">这是由卡尔斯鲁厄理工学院 SECUSO 研究组开发的众多隐私友好应用中的一个。源代码许可证是 GPLv3。 图片版权归属卡尔斯鲁厄理工学院和谷歌公司。</string>
-    <string name="more_info">更多信息可以在下面链接中找到：</string>
+    <string name="more_info">更多信息请访问：</string>
     <string name="github"><a href="https://github.com/SecUSo/privacy-friendly-qr-scanner">GitHub-Repo</a></string>
     <string name="url_secuso"><a href="https://www.secuso.org/pfa">SECUSO-Website</a></string>
     <string name="about_libraries">使用的库：</string>
@@ -51,14 +51,14 @@
     <string name="urlExplanation">二维码可能包含指向虚假网站的链接，这可能会危及您的个人数据（网络钓鱼网站）或将恶意软件（例如病毒）传输到您的设备。 \n\n因此，您应该<b>检查</b>以下链接是否是您期望的链接：</string>
     <string name="further_info">有关如何检查链接的<a href="https://secuso.aifb.kit.edu/betr-nachrichten-flyer2EN">信息</a>。</string>
     <string name="delete_history">您想删除此历史记录吗？</string>
-    <string name="ok">好的</string>
+    <string name="ok">确定</string>
     <string name="element_removed">已移除。</string>
     <string name="conform_url">请确认您检查了链接。</string>
     <string name="wifi_explanation">此版本的应用程序因无相关权限无法自动连接到 WIFI 网络。 以下是有关网络的一些详细信息。</string>
     <string name="encryption">加密</string>
     <string name="action_about">关于</string>
     <string name="history_disabled">已停用历史记录</string>
-    <string name="to">接受者：</string>
+    <string name="to">收件人：</string>
     <string name="usability_hint2">如果无法扫描代码，请拉远扫描仪与二维码的距离。</string>
     <string name="description_contact">您扫描的二维码包含联系信息。 要将其<i>导入</i>到您的地址簿中，请单击“继续”。</string>
     <string name="description_email">您扫描的二维码包含一个电子邮件地址。 要<i>发送电子邮件</i>或<i>将其添加到联系人</i>，请单击“继续”。</string>
@@ -73,8 +73,8 @@
     <string name="back">后退</string>
     <string name="choose_action_url">继续</string>
     <string name="abort_action_url">关于</string>
-    <string name="something_went_wrong">出了些问题。</string>
-    <string name="copied_to_clipboard">复制到剪贴板。</string>
+    <string name="something_went_wrong">出了点问题。</string>
+    <string name="copied_to_clipboard">已复制到剪贴板。</string>
     <string name="noname">未指定名称</string>
     <string name="title_activity_result_url">链接</string>
     <string name="title_activity_result_text">文本</string>
@@ -93,14 +93,14 @@
     <string name="help_permission1_heading">相机</string>
     <string name="help_privacy_heading">本应用需要哪些权限？</string>
     <string name="help_category_example">扫描失败，怎么办？</string>
-    <string name="help_overview_heading">这是一个什么应用？</string>
+    <string name="help_overview_heading">什么是 Privacy Friendly QR Scanner？</string>
     <string name="help_intro">使用本应用，您可以扫描包含各种内容的条形码和二维码。</string>
     <string name="help_whatis_answer">使用本应用，您可以扫描/生成各种内容的条形码和二维码。 您还可以复制/与其他应用程序共享扫描的二维码，此外您还可以将生成的二维码保存在图库中并共享。</string>
-    <string name="help_whatis">这是一个什么应用？</string>
+    <string name="help_whatis">什么是 Privacy Friendly QR Scanner？</string>
     <string name="help_usability">扫描失败，怎么办？</string>
     <string name="help_usability_answer">如果无法扫描代码，请拉远扫描仪与二维码的距离。</string>
-    <string name="help_privacy">本应用如何尊重个人信息？</string>
-    <string name="help_privacy_answer">此应用不需要任何许可。 它还不包括任何跟踪机制或广告。</string>
+    <string name="help_privacy">本应用哪些方面隐私友好？</string>
+    <string name="help_privacy_answer">Privacy Friendly QR Scanner 无需任何权限。此外，它不包含任何跟踪机制或广告。</string>
     <string name="help_permission">此应用需要哪些权限？</string>
     <string name="help_permission_answer">该应用程序需要相机权限，用于通过相机扫描条形码和二维码。 该应用程序还需要访问您的存储空间的权限，以扫描图像中的代码或将生成的代码保存到您的图像中。</string>
     <string name="pref_title_enable_history">启用历史记录</string>
@@ -108,7 +108,7 @@
     <string name="pref_keep_duplicates">保留重复项</string>
     <string name="pref_keep_duplicates_explanation">重复项将保存到历史记录中</string>
     <string name="pref_title_beep">检测声音</string>
-    <string name="geoInfo">您扫描的二维码包含彩信。</string>
+    <string name="geoInfo">您扫描的二维码包含地理信息。</string>
     <string name="content_copied">内容已复制</string>
     <string name="share_via">分享方式</string>
     <string name="no_content_in_history">没有历史记录！</string>
@@ -118,7 +118,7 @@
     <string name="removed_items">删除的项目</string>
     <string name="canncelled_scan">您取消了扫描</string>
     <string name="Scan_qr">扫描</string>
-    <string name="okay">好的</string>
+    <string name="okay">确定</string>
     <string name="Store_in_gallery">保存</string>
     <string name="phone_number">电话号码</string>
     <string name="text_enter">您要编码的文本</string>
@@ -147,7 +147,7 @@
     <string name="network_name">网络名称 (SSID)</string>
     <string name="password">密码</string>
     <string name="company">公司</string>
-    <string name="lastname">姓</string>
+    <string name="lastname">姓氏</string>
     <string name="title">标题</string>
     <string name="city">城市</string>
     <string name="street_number">街道编号</string>
@@ -195,9 +195,9 @@
     <string name="dialog_history_delete_title">删除</string>
     <string name="pref_save_real_image_to_history_title">保存二维码</string>
     <string name="pref_save_real_image_to_history_summary">保存代码的真实图像而非重新创建</string>
-    <string name="item_result_email_to">目的地：</string>
-    <string name="item_result_email_cc">CC：</string>
-    <string name="item_result_email_bcc">BCC：</string>
+    <string name="item_result_email_to">收件人：</string>
+    <string name="item_result_email_cc">抄送：</string>
+    <string name="item_result_email_bcc">密送：</string>
     <string name="item_result_email_subject">主题：</string>
     <string name="item_result_email_body">正文：</string>
     <string name="item_result_calendar_title">标题：</string>
